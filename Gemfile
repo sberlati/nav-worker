@@ -47,3 +47,15 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Idk...
+gem 'rest-client'
+
+# Database connector
+gem 'mongoid', '~> 7.0.6'
+gem "mongoid-indifferent-access", require: "mongoid_indifferent_access"
+
+# Headless scraping.
+gem "watir"
+gem "webdrivers"
+gem 'headless'
